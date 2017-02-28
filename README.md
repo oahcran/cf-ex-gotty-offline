@@ -17,3 +17,4 @@ This is a fork to Dan Mikusa's github repo (https://github.com/dmikusa-pivotal/c
 
 1. [Push an App using Binary Buildpack](http://docs.cloudfoundry.org/buildpacks/binary/index.html#pushing_apps)
 2. [Process Types and the Procfile](https://devcenter.heroku.com/articles/procfile)
+3. [Supporting WebSockets](https://docs.cloudfoundry.org/adminguide/supporting-websockets.html)
