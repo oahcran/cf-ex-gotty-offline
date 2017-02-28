@@ -6,7 +6,6 @@ applications:
   host: gotty
   path: ./gotty
   buildpack: binary_buildpack
-  command: $HOME/gotty -p "$PORT" -w -c "$GOTTY_USERNAME:$GOTTY_PASSWORD" /bin/bash
   env:
     GOTTY_USERNAME: user
     GOTTY_PASSWORD: gotty
