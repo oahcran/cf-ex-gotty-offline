@@ -1,3 +1,15 @@
 # GoTTY Offline Deployment on CF
 
-This is a fork to https://github.com/dmikusa-pivotal/cf-ex-gotty that deploy GoTTY to CF offline without internet access. Please check @dmikusa-pivotal's github repo if your CF have direct internet access or through HTTP(s) proxy.
+This is a fork to Dan Mikusa's github repo (https://github.com/dmikusa-pivotal/cf-ex-gotty) that deploy [GoTTY](https://github.com/yudai/gotty) to CF without internet access. Please check his github repo if your CF have direct internet access or through HTTP(s) proxy.
+
+## Deployment
+
+1. Clone this repo
+2. Download GoTTY Linux x64 binary and extract `gotty` file into _gotty_ folder. Or use `deploy.sh` at this repo as a reference to download recent _v0.0.13_ GoTTY version.
+3. (Optional) Update `manifest.yml` if needed. e.g. update env variables to specify GoTTY Credential for Basic Authentication
+4. Run `cf push` and access from a browser.
+
+## Reference
+
+1. [Push an App using Binary Buildpack](http://docs.cloudfoundry.org/buildpacks/binary/index.html#pushing_apps)
+2. [Process Types and the Procfile](https://devcenter.heroku.com/articles/procfile)
