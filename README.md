@@ -5,7 +5,7 @@ This is a fork to Dan Mikusa's github repo (https://github.com/dmikusa-pivotal/c
 ## Deployment
 
 1. Clone this repo
-2. Download [GoTTY Linux x64 Binary](https://github.com/yudai/gotty/releases) and extract `gotty` file into _gotty_ folder. Or use `deploy.sh` at this repo as a reference to download recent _v0.0.13_ GoTTY version.
+2. Download [GoTTY Linux x64 Binary](https://github.com/yudai/gotty/releases), extract `gotty` file into _gotty_ folder and set correct execute permission. Or use `deploy.sh` at this repo as a reference to download recent _v0.0.13_ GoTTY version.
 3. (Optional) Update `manifest.yml` if needed. e.g. update env variables to specify GoTTY Credential for Basic Authentication
 4. Run `cf push` and access from a browser `https://<app url>:<websocket port>`.
 
