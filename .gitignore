@@ -1,2 +1,3 @@
 # ignore gotty binary at folder gotty
 gotty/gotty
+gotty/mongo
